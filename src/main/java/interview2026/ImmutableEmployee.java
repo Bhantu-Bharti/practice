@@ -15,6 +15,7 @@ public final class ImmutableEmployee {
         this.addresses = addresses.stream()
                 .map(Address::new)
                 .toList();
+
     }
 
     public String getName() {
